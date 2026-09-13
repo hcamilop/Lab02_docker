@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS visitas (
+    id SERIAL PRIMARY KEY,
+    instancia VARCHAR(100),
+    creado_en TIMESTAMP DEFAULT NOW()
+);
