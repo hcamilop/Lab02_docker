@@ -64,6 +64,19 @@ feat: agregar docker-compose con 3 copias de la API, PostgreSQL, volúmenes y re
 chore: agregar .gitignore
 docs: documentar comandos, redes y volúmenes de Docker
 ```
+## Capturas del proyecto desplegado
+
+Estado de los contenedores (`docker compose ps`):
+
+![docker compose ps](./screenshots/docker-compose-ps.jpg)
+
+Respuestas de las 3 copias de la API:
+
+![API en puerto 3000](./screenshots/3000.jpg)
+
+![API en puerto 3001](./screenshots/3001.jpg)
+
+![API en puerto 3002](./screenshots/3002.jpg)
 
 # Créditos
 
